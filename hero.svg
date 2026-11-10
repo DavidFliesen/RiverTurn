@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420">
+<defs>
+<radialGradient id="sea" cx=".67" cy=".46" r=".73"><stop stop-color="#31645A"/><stop offset="1" stop-color="#112F30"/></radialGradient>
+<linearGradient id="shell" x2=".6" y2="1"><stop stop-color="#F4D5A0"/><stop offset=".48" stop-color="#BC865A"/><stop offset="1" stop-color="#72523D"/></linearGradient>
+<pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0v34" fill="none" stroke="#BBD3C1" opacity=".12"/></pattern>
+<pattern id="grain" width="19" height="17" patternUnits="userSpaceOnUse"><path d="M2 7h1m9 4h1m3-8h1M5 15h1" stroke="#E4D3AC" opacity=".5"/></pattern>
+</defs>
+<path fill="url(#sea)" d="M0 0h700v420H0z"/>
+<path fill="url(#grid)" d="M0 0h700v420H0z"/>
+<g fill="none" stroke="#8DB4A4" opacity=".25">
+<path d="M-40 286C84 343 103 249 191 235s90 64 177 78 141-52 229-22 99 57 158 38"/>
+<path d="M-44 305C86 362 112 266 191 252s92 65 178 79 143-50 231-22 100 56 151 38"/>
+<path d="M-45 324C82 380 115 286 194 270s85 62 175 78 145-51 235-21 103 57 152 38"/>
+<path d="M-42 345C86 402 123 301 195 288s85 63 176 78 144-48 233-21 102 58 152 38"/>
+<path d="M-38 364C92 420 125 324 198 307s84 62 173 77 142-49 235-21 102 57 150 38"/>
+<path d="M410-20c58 96 116 21 184 49s42 61 133 70m-314-138c64 91 117 22 186 48s49 64 123 68M515-10c39 22 76-6 111 22s43 37 99 46"/>
+<path d="M550 104c45-22 99-13 155 4m-139 8c45-17 93-11 137 5"/>
+</g>
+<g transform="translate(82 3)">
+<ellipse cx="343" cy="201" rx="177" ry="126" fill="#112F30" opacity=".32" stroke="#A5BDAC" stroke-dasharray="2 8"/>
+<path d="M230 218c-47 32-38 84 6 91 35 6 58-15 62-40l-13 9m15-13-18 4M217 229c65-71 163-103 239-46" fill="none" stroke="#D6D5BD" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="none" stroke-linecap="round" stroke="#E3BE8A">
+<path d="M241 219q-24 3-45 23m58-20q-26 20-28 36m45-46q-19 23-15 37m30-48q-11 26-6 36m25-44q-7 24 2 41m19-47q-2 26 13 44m11-44q1 32 21 44m5-42q5 30 24 41m-1-37q8 24 25 29m-6-22q14 20 27 23m-12-20q14 11 28 12m-22-17 35-4" stroke-width="2.4"/>
+<path d="M262 207q-35 7-59 25m76-33q-29 19-39 46m61-54q-15 20-11 42m37-51q-8 22 2 48m25-49q5 21 21 36m1-34q14 24 36 38m-5-31q11 18 33 26m-4-16 25 14" stroke-width="1.4"/>
+</g>
+<path d="M212 226c14-32 43-60 77-77 47-24 99-19 137 7 19 13 30 26 39 49-22-1-43-6-66-10-34-7-67-7-98 5-31 11-57 27-89 26Z" fill="url(#shell)" stroke="#F0C998" stroke-width="2"/>
+<path d="M212 226c14-32 43-60 77-77 47-24 99-19 137 7 19 13 30 26 39 49-22-1-43-6-66-10-34-7-67-7-98 5-31 11-57 27-89 26Z" fill="url(#grain)"/>
+<path d="M235 193q6 16 16 28m5-48q9 20 19 38m4-55q14 21 24 44m4-59q13 23 20 52m9-58q10 25 14 54m17-54q8 22 7 55m22-47q5 24 3 52m22-42q4 19 1 47m20-30q3 16-1 32" fill="none" stroke="#513E33" opacity=".75" stroke-width="3"/>
+<path d="M236 194q6 16 16 28m6-47q9 20 19 36m4-54q14 21 24 43m4-58q13 23 20 50m9-56q10 25 14 52m17-52q8 22 7 54m22-46q5 24 3 51m22-40q4 19 1 45" fill="none" stroke="#F8D8A4" opacity=".75" stroke-width="1.2"/>
+<path d="M440 193q30-12 56-7m-48 11q26-3 47 7" fill="none" stroke="#E5BF8F" stroke-width="2" stroke-linecap="round"/>
+<circle cx="458" cy="182" r="7" fill="none" stroke="#D6D5BD" stroke-width="3"/>
+<g stroke="#ADC7B5" fill="none" opacity=".75"><path d="M332 141V92h72m-128 129-44 45h-61m229-52 45 49h62"/><circle cx="332" cy="141" r="3"/><circle cx="276" cy="221" r="3"/><circle cx="400" cy="214" r="3"/></g>
+<g fill="#DAE5D7" font-size="9" letter-spacing="2" font-family="monospace"><text x="350" y="85">SHELLBACK</text><text x="171" y="281">HOOK</text><text x="461" y="278">FIBERS</text></g>
+</g>
+</svg>
